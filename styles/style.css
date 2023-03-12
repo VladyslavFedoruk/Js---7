@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: rgb(47, 4, 238);
+}
+
+h2 {
+    padding: 10px;
+    color: rgb(21, 201, 141);
+}
+
+p {
+    padding: 10px;
+    color: rgb(194, 117, 23);
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+main>h2 {
+    color: rgb(47, 4, 238);
+    margin-bottom: 15px;
+}
+
+.open {
+    display: block;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 10px;
+    background-color: #024f94;
+    border-radius: 10px;
+    font-family: "Cinzel", serif;
+    font-size: 15px;
+    border: 3px solid #efd091;
+    width: 200px;
+    color: #efd091;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.open:active {
+    background-color: rebeccapurple;
+}
+
+.modalWindow {
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    background-color: #024f94;
+    border: 3px solid #efd091;
+    border-radius: 12px;
+}
+
+.close {
+    background-color: #e40909;
+    border-radius: 5px;
+    font-family: "Cinzel", serif;
+    font-size: 15px;
+    border: 3px solid #efd091;
+    width: 80px;
+    color: #efd091;
+    cursor: pointer;
+    height: 40px;
+}
+
+.close:active {
+    background-color: rgb(13, 231, 220);
+    color: #e40909;
+}
+
+.traffic-light {
+    margin: 0 auto;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 120px;
+    height: 800px;
+    padding: 30px;
+    background: rgb(80, 79, 79);
+    margin-bottom: 10px;
+}
+
+li {
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 100px;
+    margin: 10px;
+}
+
+.red {
+    background: black;
+}
+
+.yellow {
+    background: black;
+}
+
+.green {
+    background-color: black;
+}
+
+.traffic-switcher {
+    display: block;
+    margin: 0 auto;
+    box-shadow: rgba(65, 8, 223, 0.1) 0px 4px 12px;
+    background: rgb(160, 159, 159);
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    width: 200px;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    height: 35px;
+    margin-bottom: 50px;
+}
+
+.traffic-switcher:hover {
+    background: rgb(0, 0, 0);
+    color: greenyellow;
+}
